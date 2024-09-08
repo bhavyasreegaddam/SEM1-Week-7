@@ -1,0 +1,238 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    height:650px;
+    /* border:2px solid goldenrod; */
+}
+.img{
+    background-image:url("../img.jpg");
+    height:700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Navbar Section  */
+nav a{
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    font-weight: 600;
+}
+nav a:hover{
+    color:darkorange;
+    text-decoration:underline;
+}
+nav{
+    /* border:2px solid red; */
+    margin-top: 10px;
+    height:40px;
+    margin-left:800px;
+}
+p{
+    font-size: 22px;
+    margin-top:10px;
+    /* border:2px solid green; */
+    margin-left: 150px;
+    width:140px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    color:white;
+}
+span{
+    color:darkorange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+}
+.navbar{
+    display: flex;
+    /* border:2px solid orange; */
+}
+.main-body{
+    /* border:2px solid greenyellow; */
+    height:500px;
+    margin-left:500px;
+    margin-top:200px;
+}
+.main-body h5{
+    font-size: 30px;
+    font-weight: 900;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    /* border:2px solid greenyellow; */
+}
+.search{
+    height:40px;
+    width:300px;
+    border-radius: 10px;
+    margin-top: 9px;
+    border:2px solid orange;
+}
+.main-body button{
+    font-size: 20px;
+    background-color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius:10px;
+    margin-left: 10px;
+    color:white;
+    padding:7px;
+    border:2px solid white;
+}
+.main-body button:hover{
+    background-color:darkorange;
+}
+.main-body h4{
+    color:white;
+    margin-top: 6px;
+    margin-bottom: 3px;
+    font-family:cursive;
+}
+
+/* Books List  */
+.h2{
+    text-align: center;
+    font-family:cursive;
+    color:darkorange;
+    margin-bottom: 30px;
+
+}
+.Bookslist{
+    /* border:2px solid black; */
+    display: flex;
+}
+.img1{
+    height:200px;
+    padding:20px;
+}
+#img1 h5{
+    color:rgb(132, 121, 121);
+    font-family:sans-serif;
+    text-align: center;
+    margin-top: 5px;
+}
+#img1{
+    /* border:2px solid green; */
+    height:350px;
+    margin-left:120px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;;
+}
+#img1 button{
+    font-size: 20px;
+    background-color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius:10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    color:white;
+    padding:7px;
+    border:2px solid white;
+}
+#img1 button:hover{
+background-color: darkorange;
+}
+#img1 h3{
+    font-family: monospace;
+    text-align: center;
+}
+.img2{
+    height:200px;
+    padding:20px;
+}
+.img3{
+    height:200px;
+    padding:20px;
+}
+.img4{
+    height:200px;
+    padding:20px;
+}
+.App{
+    color:red;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin-left: 20px;
+    margin-right: 20px;
+    height:550px;
+    
+}
+.AppName{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.h1{
+    color:black;
+    text-align: center;
+    font-family:serif;
+    color:orange;
+    font-weight: 900;
+}
+.App img{
+    height:300px;
+    width:200px;
+    /* border:2px solid red; */
+    margin-left:120px;
+    margin-top:50px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.App button{
+    margin-left:150px;
+    padding:5px;
+    background-color: orange;
+    color:white;
+    margin-top:10px;
+    font-size: 25px;
+    border:2px solid white;
+    border-radius: 10px;
+}
+.App button:hover{
+    background-color: darkorange;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.contact-img img{
+    height:600px;
+    width:700px;
+    margin-left: 20px;
+}
+#contact{
+    display: flex;
+    margin-top:100px;
+}
+.contact{
+    /* border:2px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin-left:100px;
+    width:600px;
+}
+form input{
+    height:50px;
+    width:300px;
+    margin-left: 180px;
+}
+form label{
+    margin-top: 10px;
+    font-family: cursive;
+    margin-left:180px;
+    color: orange;
+    font-family:30px;
+}
+.contact h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: orange;
+}
+form button{
+    margin-left:280px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: orange;
+    color:white;
+    font-size: 20px;
+    border:5px solid darkorange;
+}
+form button:hover{
+    background-color:darkorange;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
